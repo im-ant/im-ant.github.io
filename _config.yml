@@ -1,6 +1,6 @@
 # main text of home
 name: Anthony Chen
-bio: Boop boop
+bio: I like computers, brains and coffee.
 
 # twitter summary info
 #description: A blog about technology and stuff related
@@ -39,7 +39,7 @@ disqus:
 # google: mygoogle
 # instagram: myinstagram
 # pinterest: mypinterest
-linkedin: mylinkedin
+# linkedin: mylinkedin
 # youtube: myyoutube
 # spotify: myspotify
 github: im-ant
@@ -49,7 +49,7 @@ github: im-ant
 # reddit: username
 # medium: medium
 # vimeo: myvimeo
-email: myemail@gmail.com
+email: anthony.gx.chen AT gmail.com
 
 authors:
     anthonychen:
