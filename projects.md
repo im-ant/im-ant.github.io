@@ -3,7 +3,13 @@ title: Projects
 layout: page
 ---
 
+---
+### [Dumb_ChatBot](https://github.com/im-ant/Dumb_ChatBot)
+A dumb, albeit entertaining chat bot to waste your time.
 
+You may think it is just putting together random words as replies, but it is in fact spitting :fire::fire::fire: Shakespearean prose at you.
+
+---
 ### [ClinVar_PathoID](https://github.com/im-ant/ClinVar_PathoID)
 With rapid advances in genomics, techniques such as next-generation sequencing allows for the rapid and accurate sequencing of entire genomes. Mutations can be identified from these genome-wide sequencing for disease identification and treatment.
 
