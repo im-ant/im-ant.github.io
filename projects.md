@@ -4,6 +4,10 @@ layout: page
 ---
 
 ---
+### [FB_Messenger_Bot](https://github.com/im-ant/FB_Messenger_Bot)
+"Wouldn't it be funny if I get a chatbot to chat on my behalf to my friends", I thought. That is how this tiny project came about. It logs into your personal Facebook Messenger, and chats to a person of your choice - only your own responses are generated with a chatbot AI.
+
+---
 ### [Stability_Utils.py](https://github.com/im-ant/Analysis_CoBrA/blob/master/Stability_Utils.py)
 Some python 2 functions for stability analysis that I am writing as I do my own cluster stability analysis. In the function *countCommonEdge*, I seem to have found a nice balance between runtime (via vectorization) and memory usage for counting the number of common edges between two graphs with identical vertices - a memory intensive step in [Ben-Hur's 2002 method](https://psb.stanford.edu/psb-online/proceedings/psb02/benhur.pdf) for analysing cluster similarity (see Equation 2 in his paper). Do let me know if this can be further improved (via reducing the time complexity, perhaps?).
 
