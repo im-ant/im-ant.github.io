@@ -9,7 +9,7 @@ layout: page
 
 ---
 ### [Stability_Utils.py](https://github.com/im-ant/Analysis_CoBrA/blob/master/Stability_Utils.py)
-Some python 2 functions for stability analysis that I am writing as I do my own cluster stability analysis. In the function *countCommonEdge*, I seem to have found a nice balance between runtime (via vectorization) and memory usage for counting the number of common edges between two graphs with identical vertices - a memory intensive step in [Ben-Hur's 2002 method](https://psb.stanford.edu/psb-online/proceedings/psb02/benhur.pdf) for analysing cluster similarity (see Equation 2 in his paper). Do let me know if this can be further improved (via reducing the time complexity, perhaps?).
+Some python 2 functions for stability analysis that I am writing as I do my own cluster stability analysis. In the function *countCommonEdge*, I seem to have found a nice balance between runtime (via vectorization) and memory usage for counting the number of common edges between two graphs with identical vertices - a memory intensive step in [Ben-Hur's 2002 method](https://psb.stanford.edu/psb-online/proceedings/psb02/benhur.pdf) for analyzing cluster similarity (see Equation 2 in his paper). The space complexity is reduced from O(n^2) to O(n).
 
 ---
 ### [ClinVar_PathoID](https://github.com/im-ant/ClinVar_PathoID)
