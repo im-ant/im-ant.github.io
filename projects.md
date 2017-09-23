@@ -3,9 +3,6 @@ title: Projects
 layout: page
 ---
 
----
-### [FB_Messenger_Bot](https://github.com/im-ant/FB_Messenger_Bot)
-"Wouldn't it be funny if I get a chatbot to chat on my behalf to my friends", I thought. That is how this tiny project came about. It logs into your personal Facebook Messenger, and chats to a person of your choice - only your own responses are generated with a chatbot AI.
 
 ---
 ### [Stability_Utils.py](https://github.com/im-ant/Analysis_CoBrA/blob/master/Stability_Utils.py)
@@ -20,6 +17,10 @@ ClinVar is an openly available online database at the National Center for Biotec
 The ClinVar Pathogenicity Finder (*ClinVar_PathoID*) is a tool for large-scale analysis of mutation statuses and identification of pre-existing disease conditions. It accesses the ClinVar database and retrieves information in an automated fashion, resulting in huge improvements in efficiency and enhancements to clinical and research capabilities.
 
 Please refer to the github page for specifics regarding the Pathogenicity Finder.
+
+---
+### [FB_Messenger_Bot](https://github.com/im-ant/FB_Messenger_Bot)
+"Wouldn't it be funny if I get a chatbot to chat on my behalf to my friends", I thought. That is how this tiny project came about. It logs into your personal Facebook Messenger, and chats to a person of your choice - only your own responses are generated with a chatbot AI.
 
 ---
 ### [Dumb_ChatBot](https://github.com/im-ant/Dumb_ChatBot)

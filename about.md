@@ -18,9 +18,10 @@ layout: page
 	<li>Python</li>
 	<li>Java</li>
 	<li>C</li>
-	<li>Bash / UNIX Command Line</li>
+	<li>UNIX Shell Script</li>
 	<li>R and MATLAB</li>
 	<li>Git</li>
+	<li>Keras</li>
 </ul>
 
 ---
