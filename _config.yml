@@ -12,9 +12,10 @@ picture: assets/images/ant_square.jpg
 
 # If you want to include your resume, set to true
 # and specify source (external or local).
-#resume: true
+resume: true
 #esume-external: true
-#resume-url: https://google.com/?q=my+resume
+# resume-url: https://google.com/?q=my+resume
+resume-url: assets/CV_CsBio.pdf
 
 #url: https://koppl.in/indigo
 # your url: http://USERNAME.github.io
