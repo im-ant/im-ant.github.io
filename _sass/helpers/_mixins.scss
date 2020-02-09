@@ -3,6 +3,8 @@
    ========================================================================== */
 
 // Font families
+
+/*
 @mixin ff--sans-serif($font-weight: normal) {
   font-family: 'Roboto', 'Helvetica Neue', Helvetica, sans-serif;
   font-weight: $font-weight;
@@ -12,6 +14,23 @@
   font-family: 'Roboto Mono', monospace;
   font-weight: $font-weight;
 }
+*/
+
+// === Below is modified fonts ===
+
+// For regular text??
+@mixin ff--sans-serif($font-weight: normal) {
+  font-family: 'Old Standard TT', serif;
+  font-weight: $font-weight;
+}
+
+// For headers?
+@mixin ff--mono($font-weight: normal) {
+  font-family: 'Playfair Display', serif;
+  font-weight: $font-weight;
+}
+
+// === Above is modified fonts ===
 
 // Font sizing
 @mixin fs--title {
@@ -31,7 +50,7 @@
 
 @mixin fs--body {
   line-height: 1.5;
-  font-size: 1.8rem; // 18px
+  font-size: 2.1rem; // Ori: 1.8rem //18px
 }
 
 @mixin fs--meta {
