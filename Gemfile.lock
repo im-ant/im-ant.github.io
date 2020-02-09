@@ -242,7 +242,10 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  ffi (>= 1.9.24)
   github-pages
+  jekyll (>= 3.6.3)
+  nokogiri (>= 1.10.4)
 
 RUBY VERSION
    ruby 2.6.3p62
