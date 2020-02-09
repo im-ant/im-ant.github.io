@@ -1,3 +1,5 @@
 # im-ant.github.io
 
-Learning to design a website in my spare time - it is in progress!
+The old indigo theme for the website.
+
+Deprecated as of February 9, 2020. Kept here as a reference.
