@@ -8,7 +8,7 @@ bio: "Graduate student in artificial intelligence. I like computers, brains and 
 # if it's an external image, update below for true
 # better with square images
 external-image: false
-picture: assets/images/mila-photo-19_square.png
+picture: assets/images/Mila2019-square-small.jpg
 
 # If you want to include your resume, set to true
 # and specify source (external or local).
@@ -57,7 +57,7 @@ authors:
         name: Anthony Chen
         bio: Hi there
         external-image: false
-        picture: assets/images/ant_square.jpg
+        picture: assets/images/Mila2019-square-small.jpg
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
