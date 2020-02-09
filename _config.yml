@@ -1,6 +1,6 @@
 # main text of home
 name: Anthony Chen
-bio: I like computers, brains and coffee.
+bio: "Graduate student in artificial intelligence. I like computers, brains and coffee."
 
 # twitter summary info
 #description: A blog about technology and stuff related
@@ -8,11 +8,11 @@ bio: I like computers, brains and coffee.
 # if it's an external image, update below for true
 # better with square images
 external-image: false
-picture: assets/images/ant_square.jpg
+picture: assets/images/mila-photo-19_square.png
 
 # If you want to include your resume, set to true
 # and specify source (external or local).
-resume: true
+resume: false
 #esume-external: true
 # resume-url: https://google.com/?q=my+resume
 resume-url: assets/CV_2019-06-06.pdf
@@ -36,7 +36,7 @@ disqus:
 
 # if you don't have any of social below, comment the line
 # facebook: myfacebook
-# twitter: mytwitter
+twitter: AntChen_
 # google: mygoogle
 # instagram: myinstagram
 # pinterest: mypinterest
@@ -73,7 +73,10 @@ projects: true
 
 # if you don't need "about" or "blog", comment them out below
 about: true
-#blog: true
+blog: true
+
+# Show research
+research: true
 
 # do you want to show the "read time" of the posts?
 read-time: true
