@@ -22,7 +22,7 @@ export const publicationData: Publication[] = [
     //paperUrl: "https://arxiv.org/abs/2408.11816",
     //codeUrl: "https://github.com/jsmith/scalable-causal-discovery",
     //bibtex: "https://arxiv.org/abs/2409.15476.bib",
-    tldr: "Language model (LM) agents exhibit human-like biases when causally reasoning. We compare this to human data. We also develop a scalable test-time sampling algorithm to fix this, by sampling hypotheses as code and acting to eliminate them.",
+    tldr: "Language model (LM) agents exhibit human-like biases when causally exploring. We compare this to human data. We also develop a scalable test-time sampling algorithm to fix this, by sampling hypotheses as code and acting to eliminate them.",
     // imageUrl: "https://images.unsplash.com/photo-1561622539-dffbfc2008fd?q=80&w=2076&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     // award: "🏆 Best Paper Award",
     // if you have an image in public/images, you can use it like this:
