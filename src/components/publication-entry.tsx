@@ -6,7 +6,6 @@ const highlightAuthor = (authors: string, highlightNames: string[]) => {
   return authors.split(', ').map((author, index) => 
     highlightNames.includes(author) ? <strong key={index}>{author}</strong> : author
 ).reduce((prev, curr) => <>{prev}, {curr}</>);  // ).reduce((prev, curr) => [prev, ', ', curr]);
-
 };
 
 export function PublicationEntry({

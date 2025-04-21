@@ -16,6 +16,20 @@ export const publicationData: Publication[] = [
   // If you don't want to show publications, just make the array empty.
   {
     year: "2025",
+    conference: "Preprint",
+    title: "Language Agents Mirror Human Causal Reasoning Biases. How Can We Help Them Think Like Scientists?",
+    authors: "Anthony GX-Chen, Dongyan Lin*, Mandana Samiei*, Doina Precup, Blake Richards, Rob Fergus, Kenneth Marino",
+    //paperUrl: "https://arxiv.org/abs/2408.11816",
+    //codeUrl: "https://github.com/jsmith/scalable-causal-discovery",
+    //bibtex: "https://arxiv.org/abs/2409.15476.bib",
+    tldr: "Language model (LM) agents exhibit human-like biases when causally reasoning. We compare this to human data. We also develop a scalable test-time sampling algorithm to fix this, by sampling hypotheses as code and acting to eliminate them.",
+    // imageUrl: "https://images.unsplash.com/photo-1561622539-dffbfc2008fd?q=80&w=2076&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    // award: "🏆 Best Paper Award",
+    // if you have an image in public/images, you can use it like this:
+    imageUrl: "/images/publication/blicket-pic-2025.png"
+  },
+  {
+    year: "2025",
     conference: "ICLR",
     title: "Efficient Exploration and Discriminative World Model Learning with an Object-Centric Abstraction",
     authors: "Anthony GX-Chen, Kenneth Marino, Rob Fergus",
@@ -34,8 +48,9 @@ export const publicationData: Publication[] = [
     title: "Testing Causal Hypotheses through Hierarchical Reinforcement Learning",
     authors: "Anthony GX-Chen*, Dongyan Lin*, Mandana Samiei*",
     paperUrl: "https://openreview.net/forum?id=ZqNcJ8uuHT",
-    tldr: "A framework to think about structural causal models (SCMs) and Markov Decision Processes (MDPs) together, for agentic systems that can test their own causal hypotheses."
+    tldr: "A framework to think about structural causal models (SCMs) and Markov Decision Processes (MDPs) together, for agentic systems that can test their own causal hypotheses.",
     // codeUrl: "https://github.com/jsmith/robust-causal-discovery",
+    imageUrl: "/images/publication/markov-scm-2024.png"
   },
   {
     year: "2024",
@@ -55,6 +70,7 @@ export const publicationData: Publication[] = [
     paperUrl: "https://arxiv.org/abs/2201.01836",
     tldr: "A new way of constructing more efficient one-step bootstrapped learning targets, by combining value estimates (reward prediction) and successor features (feature prediction) in a complementary way. This is a generalization of TD(0), and leads to a spectrum of one-step learning targets trading off value vs. feature predictions.",
     tweetUrl: "https://x.com/AntChen_/status/1496653952531804161",
+    imageUrl: "/images/publication/lambda-bootstrap-2021.png",
   },
   {
     year: "2020",
