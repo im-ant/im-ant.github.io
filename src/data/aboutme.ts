@@ -30,7 +30,7 @@ export const aboutMe: AboutMe = {
   linkedinUsername: "anthonygxchen",
   twitterUsername: "AntChen_",
   // blogUrl: "https://",
-  cvUrl: "https://drive.google.com/file/d/18DPkxh8rXmSnSrX0F8rOsl8CxQC_zh9j/view?usp=sharing",
+  cvUrl: "https://drive.google.com/file/d/1jbki6O-mD28uvmUfo0TF9-aHmj5ml45A/view?usp=sharing",
   institutionUrl: "https://wp.nyu.edu/cilvr/",
   // altName: "",
   //secretDescription: "I like dogs.",
