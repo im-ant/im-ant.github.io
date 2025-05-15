@@ -19,7 +19,7 @@ export const publicationData: Publication[] = [
     conference: "Preprint",
     title: "Language Agents Mirror Human Causal Reasoning Biases. How Can We Help Them Think Like Scientists?",
     authors: "Anthony GX-Chen, Dongyan Lin*, Mandana Samiei*, Doina Precup, Blake Richards, Rob Fergus, Kenneth Marino",
-    paperUrl: "https://im-ant.github.io/publications/gxchen-2025_lm-cog-bias.pdf",
+    paperUrl: "https://arxiv.org/abs/2505.09614",
     //codeUrl: "https://github.com/jsmith/scalable-causal-discovery",
     //bibtex: "https://arxiv.org/abs/2409.15476.bib",
     tldr: "Language model (LM) agents exhibit human-like biases when causally exploring. We compare this to human data. We also develop a scalable test-time sampling algorithm to fix this, by sampling hypotheses as code and acting to eliminate them.",
