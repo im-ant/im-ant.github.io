@@ -22,7 +22,7 @@ export const publicationData: Publication[] = [
     //paperUrl: "https://arxiv.org/abs/2505.09614",
     //codeUrl: "https://github.com/jsmith/scalable-causal-discovery",
     //bibtex: "https://arxiv.org/abs/2409.15476.bib",
-    tldr: "We leverage the equivalence between RL and distribution matching to show that KL-regularized RL naturally leads to mode-collapsed optimal policies. We then introduce a simple, principled algorithm that explicitly learns multi-modal policy distributions, by constructing a better optimal distribution. This improves quality and diversity across KL-regularized RL settings — from large language models to drug discovery.",
+    tldr: "We leverage equivalency between RL and distribution matching to prove KL-regularized RL naturally leads to mode-collapsed optimal policy distributions. We then introduce a simple, principled algorithm that explicitly learns multi-modal policies, by matching to a better target distribution. This improves quality and diversity across KL-regularized RL settings — from large language models to drug discovery.",
     //"We use the equivalency between RL and distribution matching to prove KL-Regularized RL have optimal policy distributions that mode collapse. We then propose a principled and simple algorithm that learns multi-modal policy distributions by construction. This improves quality and diversity in all KL-regularized RL settings, including for LLMs and in drug discovery.",
     // imageUrl: "https://images.unsplash.com/photo-1561622539-dffbfc2008fd?q=80&w=2076&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     // award: "🏆 Best Paper Award",
