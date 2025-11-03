@@ -19,7 +19,7 @@ export const publicationData: Publication[] = [
     conference: "NeurIPS Workshop on Foundations of Reasoning in Language Models 2025 (accepted). Under submission",
     title: "KL-Regularized Reinforcement Learning is Designed to Mode Collapse",
     authors: "Anthony GX-Chen, Jatin Prakash, Jeff Guo, Rob Fergus, Rajesh Ranganath",
-    //paperUrl: "https://arxiv.org/abs/2505.09614",
+    paperUrl: "https://arxiv.org/abs/2510.20817",
     //codeUrl: "https://github.com/jsmith/scalable-causal-discovery",
     //bibtex: "https://arxiv.org/abs/2409.15476.bib",
     tldr: "We leverage equivalency between RL and distribution matching to prove KL-regularized RL naturally leads to mode-collapsed optimal policy distributions. We then introduce a simple, principled algorithm that explicitly learns multi-modal policies, by matching to a better target distribution. This improves quality and diversity across KL-regularized RL settings — from large language models to drug discovery.",
