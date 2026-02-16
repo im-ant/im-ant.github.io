@@ -8,15 +8,17 @@ export interface Publication {
   bibtex?: string;
   tldr?: string;
   imageUrl?: string;
+  videoUrl?: string;
   award?: string;
   tweetUrl?: string;
+  projectUrl?: string;
 }
 
 export const publicationData: Publication[] = [
   // If you don't want to show publications, just make the array empty.
   {
-    year: "2025",
-    conference: "NeurIPS Workshop on Foundations of Reasoning in Language Models 2025 (accepted). Under submission",
+    year: "2026",
+    conference: "ICLR",
     title: "KL-Regularized Reinforcement Learning is Designed to Mode Collapse",
     authors: "Anthony GX-Chen, Jatin Prakash, Jeff Guo, Rob Fergus, Rajesh Ranganath",
     paperUrl: "https://arxiv.org/abs/2510.20817",
@@ -27,7 +29,9 @@ export const publicationData: Publication[] = [
     // imageUrl: "https://images.unsplash.com/photo-1561622539-dffbfc2008fd?q=80&w=2076&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     // award: "🏆 Best Paper Award",
     // if you have an image in public/images, you can use it like this:
-    //imageUrl: "/images/publication/blicket-pic-2025.png"
+    imageUrl: "/images/publication/mara-target-illustration.png",
+    tweetUrl: "https://x.com/AntChen_/status/2019107535278784514",
+    projectUrl: "https://im-ant.github.io/mara/",
   },
   {
     year: "2025",
@@ -41,7 +45,8 @@ export const publicationData: Publication[] = [
     // imageUrl: "https://images.unsplash.com/photo-1561622539-dffbfc2008fd?q=80&w=2076&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     // award: "🏆 Best Paper Award",
     // if you have an image in public/images, you can use it like this:
-    imageUrl: "/images/publication/blicket-pic-2025.png"
+    imageUrl: "/images/publication/blicket-pic-2025.png",
+    tweetUrl: "https://x.com/AntChen_/status/1923426368840253606",
   },
   {
     year: "2025",

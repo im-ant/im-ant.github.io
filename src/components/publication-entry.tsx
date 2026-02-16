@@ -3,9 +3,14 @@ import { ArrowUpRight } from "lucide-react";
 import { Publication } from "@/data/publication";
 
 const highlightAuthor = (authors: string, highlightNames: string[]) => {
-  return authors.split(', ').map((author, index) => 
-    highlightNames.includes(author) ? <strong key={index}>{author}</strong> : author
-).reduce((prev, curr) => <>{prev}, {curr}</>);  // ).reduce((prev, curr) => [prev, ', ', curr]);
+  const parts = authors.split(", ").map((author, index) =>
+    highlightNames.includes(author) ? (
+      <strong key={index}>{author}</strong>
+    ) : (
+      <span key={index}>{author}</span>
+    )
+  );
+  return parts.flatMap((part, i) => (i === 0 ? [part] : [", ", part]));
 };
 
 export function PublicationEntry({
@@ -15,7 +20,20 @@ export function PublicationEntry({
 }) {
   return (
     <div className="flex flex-col sm:flex-row gap-6">
-      {publication.imageUrl && (
+      {publication.videoUrl && (
+        <div className="w-full sm:w-1/4 min-w-[160px] relative">
+          <video
+            src={publication.videoUrl}
+            controls
+            loop
+            muted
+            playsInline
+            className="w-full rounded-lg transition-all duration-300"
+            title={publication.title}
+          />
+        </div>
+      )}
+      {!publication.videoUrl && publication.imageUrl && (
         <div className="w-full sm:w-1/4 min-w-[160px] relative">
           <Image
             src={publication.imageUrl}
@@ -81,6 +99,20 @@ export function PublicationEntry({
                 className="group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform duration-300"
               />
               <span className="tracking-wider uppercase">Tweet</span>
+            </a>
+          )}
+          {publication.projectUrl && (
+            <a
+              href={publication.projectUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group inline-flex items-center gap-2 text-xs text-zinc-500 hover:text-zinc-900 transition-colors duration-300"
+            >
+              <ArrowUpRight
+                size={12}
+                className="group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform duration-300"
+              />
+              <span className="tracking-wider uppercase">Project</span>
             </a>
           )}
           {publication.bibtex && (
