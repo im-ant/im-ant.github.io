@@ -18,6 +18,20 @@ export const publicationData: Publication[] = [
   // If you don't want to show publications, just make the array empty.
   {
     year: "2026",
+    conference: "Under Submission",
+    title: "Using Reward Uncertainty to Induce Diverse Behaviour in Reinforcement Learning",
+    authors: "Anthony GX-Chen, Ankit Anand, Gheorghe Comanici, Zaheer Abbas, Eser Aygün, David Smalling, Shibl Mourad, Doina Precup, André Barreto, Mark Rowland",
+    tldr: "Generalization of policy-gradient: making use of reward uncertainty to induce controllable behavioural diversity while preserving optimal task performance"
+  },
+  {
+    year: "2026",
+    conference: "ICML DEMO Workshop (accepted), extended version under submission",
+    title: "Good Experience Maximization",
+    authors: "Anthony GX-Chen*, Stephanie Milani*, Jatin Prakash, Sumit Chopra, Rob Fergus, Rajesh Ranganath",
+    tldr: "An off-policy, replay-buffer-based reinforcement learning framework for efficient LLM training in sparse-reward settings. It enables reuse of past generated data while providing policy-improvement guarantees without importance sampling."
+  },
+  {
+    year: "2026",
     conference: "ICLR",
     title: "KL-Regularized Reinforcement Learning is Designed to Mode Collapse",
     authors: "Anthony GX-Chen, Jatin Prakash, Jeff Guo, Rob Fergus, Rajesh Ranganath",
