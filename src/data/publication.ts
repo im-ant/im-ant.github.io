@@ -17,11 +17,15 @@ export interface Publication {
 export const publicationData: Publication[] = [
   // If you don't want to show publications, just make the array empty.
   {
-    year: "2026",
-    conference: "Under Submission",
+    year: "", // year is in the venue string; left blank so it isn't appended again
+    conference: "NeurIPS 2026 Workshop: From Pre- to Post-Training (Oral), extended version under submission",
     title: "Using Reward Uncertainty to Induce Diverse Behaviour in Reinforcement Learning",
     authors: "Anthony GX-Chen, Ankit Anand, Gheorghe Comanici, Zaheer Abbas, Eser Aygün, David Smalling, Shibl Mourad, Doina Precup, André Barreto, Mark Rowland",
-    tldr: "Generalization of policy-gradient: making use of reward uncertainty to induce controllable behavioural diversity while preserving optimal task performance"
+    videoUrl: "/videos/rosa-teaser.mp4",
+    paperUrl: "https://arxiv.org/abs/2606.03962",
+    tweetUrl: "https://x.com/AntChen_/status/2098083591737450761",
+    projectUrl: "https://im-ant.github.io/rosa/",
+    tldr: "We argue that policy diversity should be the rational response to uncertainty in the reward function. We also introduce a family of generalized policy gradient methods which achieves this calibrated diversity without sacrificing task performance."
   },
   {
     year: "2026",

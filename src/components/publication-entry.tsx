@@ -24,7 +24,7 @@ export function PublicationEntry({
         <div className="w-full sm:w-1/4 min-w-[160px] relative">
           <video
             src={publication.videoUrl}
-            controls
+            autoPlay
             loop
             muted
             playsInline
