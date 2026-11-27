@@ -30,7 +30,7 @@ export const aboutMe: AboutMe = {
   linkedinUsername: "anthonygxchen",
   twitterUsername: "AntChen_",
   // blogUrl: "https://",
-  cvUrl: "https://drive.google.com/file/d/1ZicQDoX-i4gLRWez6tbDSId6T6egcTF-/view?usp=sharing",
+  cvUrl: "https://drive.google.com/file/d/1cR5QB5QeXFsdNlJLbIt3CaRCQuYv3HI6/view?usp=sharing",
   institutionUrl: "https://deepmind.google/",
   // altName: "",
   //secretDescription: "I like dogs.",
